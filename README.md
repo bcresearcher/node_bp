@@ -1,0 +1,2 @@
+# node_bp
+This should enable developers to create a sophisticated NodeJs project structure in a couple of minutes. Hmmm, NPM installation time can heavily influence. Source code should be on the host machine. NPM packages will be part of a docker volume. Node runs from a docker container: this container copies the source code from the host machine, mounts the NPM volume and then runs the business logic as a micro service. Dependencies like Mysql or message brokers (RabbitMQ or Kafka) are handled in Makefile.
