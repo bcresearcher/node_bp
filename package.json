@@ -1,0 +1,22 @@
+{
+  "name": "node_bp",
+  "version": "1.0.0",
+  "description": "boilerplate service template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcresearcher/node_bp.git"
+  },
+  "author": "civilbots",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bcresearcher/node_bp/issues"
+  },
+  "homepage": "https://github.com/bcresearcher/node_bp#readme",
+  "dependencies": {
+    "nodemon": "^1.15.1"
+  }
+}
